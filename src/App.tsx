@@ -7,6 +7,7 @@ import WelcomeName from './componant practice/WelcomeName';
 import ConditionalText from './componant practice/ConditionalText';
 import HiddenName from './componant practice/HiddenName';
 import Test from './pages/Test';
+import Trade from './pages/Trade';
 
 // //함수 컴포넌트
 // function App() {
@@ -91,7 +92,7 @@ import Test from './pages/Test';
 const App = () => {
   return (
     <div className="App">
-      <Test />
+      <Trade />
     </div>
   );
 };
