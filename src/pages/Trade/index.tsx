@@ -1,4 +1,5 @@
 import { Container, Grid } from '@material-ui/core';
+import Search from './components/Search';
 import Order from './components/Order';
 
 const Trade = () => {
@@ -6,7 +7,7 @@ const Trade = () => {
     <Container>
       <Grid container style={{ backgroundColor: '#ff5c5c' }}>
         <Grid item xs={12} lg={2}>
-          검색
+          <Search />
         </Grid>
 
         <Grid item xs={12} lg={10} style={{ backgroundColor: 'blue' }}>
